@@ -275,7 +275,7 @@ ol#playlist > li.playing {
   background-color: rgba(79, 182, 236, 0.15);
 }
 ol#playlist > li.playing:after {
-  border-color: transparent;
+  border-color: yellow;
 }
 ol#playlist > li.playing:hover {
   background-color: rgba(79, 182, 236, 0.2);
