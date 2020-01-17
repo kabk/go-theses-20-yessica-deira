@@ -1,4 +1,6 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -45,7 +47,7 @@ body {
 }
 
 #playbar {
-  visibility: hidden;
+  visibility: show;
   height: 0;
   width: 0;
 }
@@ -54,11 +56,11 @@ body {
   margin: 0 auto;
   position: relative;
   width: 400px;
-  height: 400px;
+  height: 600px;
 }
-#player #main {
+#player # {
   width: 400px;
-  height: 400px;
+  height: 600px;
   overflow: hidden;
   border-radius: 5px;
   -webkit-user-select: none;
@@ -229,7 +231,7 @@ ol#playlist {
   width: 400px;
   padding-left: 0;
   position: absolute;
-  height: 300px;
+  height: 600px;
   background-color: #fff;
   margin: 0;
   font-size: 16px;
@@ -273,7 +275,7 @@ ol#playlist > li.playing {
   background-color: rgba(79, 182, 236, 0.15);
 }
 ol#playlist > li.playing:after {
-  border-color: transparent;
+  border-color: yellow;
 }
 ol#playlist > li.playing:hover {
   background-color: rgba(79, 182, 236, 0.2);
