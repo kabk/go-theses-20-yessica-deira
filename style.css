@@ -18,3 +18,7 @@ a { text-decoration: none; }
   height: 80px;
   margin: 10px;
 }
+
+nav.selected {
+  color:blue;
+}
