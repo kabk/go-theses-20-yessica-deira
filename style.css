@@ -13,12 +13,25 @@ a { text-decoration: none; }
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+ body > p, #content { font-size: 100px }
+ body > p:first-child { font-size: 120px }
+
+
 #content{
   font-size: 100px;
   margin: 50px;
 }
+.msg_head {
+    border-radius: 55px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 30px;
+    color: #C0C0C0;
+    font-family: sans-serif;
+}
 
- .player{
+.player{
   width: 100%;
   margin: 0;
 }
