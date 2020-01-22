@@ -30,7 +30,7 @@ a { text-decoration: none; }
 
 .player{
   width: 100%;
-  height: 30px; 
+  height: 30px;
   margin: 0;
 }
 
@@ -38,4 +38,6 @@ a { text-decoration: none; }
 @media screen and (max-width: 768px) {
   body > p, #content { font-size: 30px }
   body > p:first-child { font-size: 60px }
+  
+  .player { margin-top: 10px }
 }
