@@ -25,6 +25,6 @@ a { text-decoration: none; }
 
 
 @media screen and (max-width: 768px) {
-  #content { font-size: 30px }
-
+  body > p, #content { font-size: 30px }
+  body > p:first-child { font-size: 60px }
 }
