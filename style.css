@@ -18,11 +18,12 @@ a { text-decoration: none; }
 
 #content{
   font-size: 100px;
-  /* height: 600px; */
   margin: 50px;
 }
 
- #player{
-  width: 50%;
-  height: 40px;
-} */
+.msg_body { font-size: initial }
+
+ .player{
+  width: 100%;
+  margin: 1em 0 0;
+}
